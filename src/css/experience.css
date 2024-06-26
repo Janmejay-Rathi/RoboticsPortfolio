@@ -1,5 +1,9 @@
-.entry .body{
+.entry .body {
     margin: 0 0 1em;
+}
+
+a {
+    pointer-events: auto; /* Ensures that the element is clickable */
 }
 
 @media only screen and (max-width: 768px) {

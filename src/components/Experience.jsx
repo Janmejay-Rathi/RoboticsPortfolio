@@ -28,11 +28,25 @@ const styles = {
   itemStyle: {
     marginBottom: 10,
   },
+  iconStyle: {
+    height: '50px', // Adjust size as needed
+    marginRight: '10px',
+  },
 };
 
-function Experience(props) {
+// Simple hash function for generating unique keys
+function simpleHash(input) {
+  let hash = 0;
+  for (let i = 0; i < input.length; i += 1) {
+    const char = input.charCodeAt(i);
+    hash = (hash * 31) + char; // Multiply hash by a prime number and add char code
+    hash = Math.trunc(hash);
+  }
+  return Math.abs(hash); // Ensure the hash is a positive number
+}
+
+function Experience({ header }) {
   const theme = useContext(ThemeContext);
-  const { header } = props;
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -48,59 +62,65 @@ function Experience(props) {
     <>
       <Header title={header} />
 
-      {data
-        ? (
-          <div className="section-content-container">
-            <Container>
-              <Timeline
-                lineColor={theme.timelineLineColor}
-              >
-                {data.map((item) => (
-                  <Fade>
-                    <TimelineItem
-                      key={item.title + item.dateText}
-                      dateText={item.dateText}
-                      dateInnerStyle={{ background: theme.accentColor }}
-                      style={styles.itemStyle}
-                      bodyContainerStyle={{ color: theme.color }}
-                    >
-                      <h2 className="item-title">
-                        {item.title}
-                      </h2>
-                      <div style={styles.subtitleContainerStyle}>
-                        <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
-                          {item.subtitle}
-                        </h4>
-                        {item.workType && (
-                        <h5 style={styles.inlineChild}>
-                    &nbsp;·
-                          {' '}
-                          {item.workType}
-                        </h5>
-                        )}
-                      </div>
-                      <ul style={styles.ulStyle}>
-                        {item.workDescription.map((point) => (
-                          <div key={point}>
-                            <li>
-                              <ReactMarkdown
-                                children={point}
-                                components={{
-                                  p: 'span',
-                                }}
-                              />
-                            </li>
-                            <br />
-                          </div>
-                        ))}
-                      </ul>
-                    </TimelineItem>
-                  </Fade>
-                ))}
-              </Timeline>
-            </Container>
-          </div>
-        ) : <FallbackSpinner /> }
+      {data ? (
+        <div className="section-content-container">
+          <Container>
+            <Timeline
+              lineColor={theme.timelineLineColor}
+            >
+              {data.map((item) => (
+                <Fade key={item.title + item.dateText}>
+                  <TimelineItem
+                    dateText={item.dateText}
+                    dateInnerStyle={{ background: theme.accentColor }}
+                    style={styles.itemStyle}
+                    bodyContainerStyle={{ color: theme.color }}
+                  >
+                    {item.icon && (
+                      <img
+                        src={item.icon.src}
+                        alt={item.title}
+                        style={styles.iconStyle}
+                      />
+                    )}
+                    <h2 className="item-title">
+                      {item.title}
+                    </h2>
+                    <div style={styles.subtitleContainerStyle}>
+                      <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
+                        {item.subtitle}
+                      </h4>
+                      {item.workType && (
+                      <h5 style={styles.inlineChild}>
+                  &nbsp;·
+                        {' '}
+                        {item.workType}
+                      </h5>
+                      )}
+                    </div>
+                    <ul style={styles.ulStyle}>
+                      {item.workDescription.map((point) => (
+                        <div key={simpleHash(point)}>
+                          <li>
+                            <ReactMarkdown
+                              children={point}
+                              components={{
+                                a: ({ href, children }) => <a href={href} target="_blank" rel="noopener noreferrer">{children}</a>,
+                                p: 'span',
+                              }}
+                            />
+                          </li>
+                          <br />
+                        </div>
+                      ))}
+                    </ul>
+                  </TimelineItem>
+                </Fade>
+              ))}
+            </Timeline>
+          </Container>
+        </div>
+      ) : <FallbackSpinner />}
     </>
   );
 }

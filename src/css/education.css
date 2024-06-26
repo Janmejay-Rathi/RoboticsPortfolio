@@ -6,6 +6,12 @@
     justify-content: center;
 }
 
+.education-icon {
+    width: 500px;  /* Set the desired width */
+    height: 50px; /* Set the desired height */
+}
+
+
 @media only screen and (max-width: 578px) {
     div.vertical-item-row > div:nth-child(1) {
         width: 20% !important;

@@ -1,19 +1,24 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Aug 2023 - Dec 2024",
+            "cardTitle": "Master's of Engineering in Autonomy & Robotics",
+            "cardSubtitle":"University of Illinois at Urbana-Champaign, United States",
+            "cardDetailedText": "GPA: 3.35/4.0",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/illinois.png",
+                "class": "education-icon"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Jun 2019 - May 2023",
+            "cardTitle": "Bachelor's of Engineering in Computer Science & Engineering",
+            "cardSubtitle":"Shri Ramdeobaba College of Engineering & Management, India",
+            "cardDetailedText": "CGPA: 8.97/10.0",
+            "icon" : {
+                "src": "images/education/rcoem.png",
+                "class": "education-icon"
+            }
         }
     ]
 }

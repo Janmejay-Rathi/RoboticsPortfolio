@@ -2,15 +2,20 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "https://www.linkedin.com/in/janmejayrathi/"
         },
         {
             "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "href": "https://github.com/Janmejay-Rathi"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:jurathi2@illinois.edu"
+        }
+        ,
+        {
+            "network" : "instagram",
+            "href": "https://www.instagram.com/janmejay_rathi/"
         }
     ]
 }

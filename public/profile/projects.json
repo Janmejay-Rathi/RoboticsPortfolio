@@ -1,149 +1,143 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/distracteddriver.png",
+            "title": "Identifying Distracted Driver using Pose Estimation & CNN",
+            "bodyText": "- Utilized a variety of Convolutional Neural Network (CNN) architectures, including VGG16, ResNet50, and ResNet101-based CNNs, for comprehensive training, leveraging Python and OpenCV to process and analyze images for pose estimation tasks.\n -  Developed a pose estimation method with the help of Mediapipe framework for distracted driver.\n - Implemented and fine-tuned machine learning algorithms, achieving an accuracy improvement of >20% in identifying driver distraction cues.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "text": "Video",
+                    "href": "https://www.youtube.com/watch?v=jcRcvbyZ7bs"
                 }
             ],
             "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "Pose Estimation",
+                "CNN",
+                "Mediapipe",
+                "Computer Vision",
+                "Python"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/ur3.jpg",
+            "title": "Memory Match Bot: Integrating UR3 Robotic Arm & Computer Vision",
+            "bodyText": "- Led the integration of a UR3 robotic arm with computer vision capabilities to automate a memory card game, improving the application of interactive technologies.\n - Developed and implemented template matching algorithms for the accurate detection of card suits, enhancing the system's ability to perform rapid and reliable pattern recognition using computer vision techniques.\n - Applied knowledge of forward and inverse kinematics to achieve precise control of the UR3 robotic arm, enabling accurate positioning from pixel-to-world frame transformations.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
+                    "text": "Video",
+                    "href": "https://www.youtube.com/watch?v=66gUuFlK7fE"
+                }
+            ],
+            "tags" : [
+                "UR3",
+                "Python",
+                "ROS",
+                "OpenCV",
+                "Template Matching",
+                "Kinematics"
+            ]
+        },
+        {
+            "image" : "images/projects/f1tenth.jpg",
+            "title": "Vision based Lane Tracking & Obstacle Avoidance on F1 Tenth Car",
+            "bodyText": "- Utilized RealSense D435i camera and computer vision techniques for precise lane detection and following, ensuring the F1 Tenth Car remains within its designated lane.\n - Integrated the Shi-Tomasi algorithm for real-time obstacle detection and avoidance, enabling dynamic response to unexpected obstacles on the track.\n - Incorporated a pure pursuit controller for steering and a PID controller for acceleration, improving the vehicle's manoeuvrability and speed control.\n - Conducted thorough camera calibration and employed advanced image processing techniques, converting RGB images to HSV and applying color thresholding for effective lane detection.",
+            "links": [
                 {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "text": "Video",
+                    "href": "https://www.youtube.com/watch?v=Rj_91oRI6-A"
+                }
+            ],
+            "tags" : [
+                "ROS",
+                "Computer Vision",
+                "PID",
+                "Pure Pursuit Controller",
+                "Obstacle Detection",
+                "Lane Detection",
+                "Jetson Nano",
+                "Realsense D435i"
+            ]
+        },
+        {
+            "image" : "images/projects/postrack.png",
+            "title": "PosTrack: Smart Posture Detection ",
+            "bodyText": "- Created an innovative webcam-based posture detection system using computer vision to monitor and improve user posture in real-time, addressing the shortcomings of sensor-based and machine learning approaches.\n - Utilized MediaPipe’s face mesh and pose estimation solutions to detect facial and body landmarks for posture analysis.\n - Developed non-intrusive, cost effective & user friendly system that requires no additional hardware, leveraging existing webcams for ease of integration into daily routines.",
+            "links": [
+                {
+                    "text": "Poster",
+                    "href": "https://drive.google.com/file/d/1lYf51Vg1j1-rgGn6gy8gEdE76IzZUq3x/view"
                 }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "Mediapipe",
+                "Computer Vision"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
+            "image" : "images/projects/gem.png",
+            "title": "State Estimation on GEM e4 for Autonomous Vehicles",
+            "bodyText": "- Worked on state estimation for the GEM e4 autonomous vehicle, integrating GNSS and IMU data for accurate sensor fusion.\n - Applied and tested various versions of Kalman Filters, including Extended Kalman Filter (EKF) and Unscented Kalman Filter (UKF), to improve state estimation accuracy.\n - Utilized GNSS and IMU data to enhance the vehicle's perception and navigation capabilities, ensuring reliable performance in diverse environments.\n - Conducted simulations and real-world testing to validate the performance of the implemented state estimation algorithms.",
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "Python",
+                "Kalman Filter",
+                "Autonomous Vehicles",
+                "Sensor Fusion",
+                "GEM e4",
+                "State Estimation",
+                "GNSS",
+                "IMU",
+                "Kalman Filter"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
+            "image" : "images/projects/rpi.jpg",
+            "title": "Indoor Localization & Surveillance System using Raspberry Pi",
+            "bodyText": "- Utilized Raspberry Pi with SenseHat for environmental sensing and Pi Camera for motion detection and surveillance, creating a reliable indoor monitoring solution.\n - Employed OpenCV’s HAAR Cascade Model for real-time face tracking and background subtraction to improve surveillance accuracy.\n - Applied Received Signal Strength Indicator (RSSI) values and Pedestrian Dead Reckoning (PDR) algorithms to accurately determine the location of surveillance devices within indoor environments.",
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "Localization",
+                "kalman Filter",
+                "Python",
+                "IoT",
+                "Raspberry Pi",
+                "IMU"
             ]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
+            "image" : "images/projects/deeplearning.png",
+            "title": "Enhancing Autonomous Vehicle by Object Detection & Predictive Tracking using Deep Learning Methods ",
+            "bodyText": "- Implemented advanced object detection and predictive tracking algorithms using deep learning methods to enhance the safety and reliability of autonomous vehicles.\n - Utilized state-of-the-art algorithms like YOLO-NAS with DeepSORT to improve real-time object recognition and tracking capabilities under varying environmental conditions.\n - Implemented Kalman filters and Hungarian algorithms within the DeepSORT tracking system for effective data association and tracking in real-time applications.",
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
+                "DeepSORT",
+                "YOLO-NAS",
+                "TensorFlow",
+                "PyTorch",
+                "Deep Learning",
+                "Neural Networks",
+                "Object Detection",
+                "Predictive Tracking",
+                "Autonomous Vehicles"
             ]
         },
         {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
+            "image" : "images/projects/biomedical.jpg",
+            "title": "Employing Biomedical Signals as a means of Biometric Identification",
+            "bodyText": "- Developed a high-security biometric identification system using **EEG** signals to ensure robust human recognition. Implemented using advanced 1D **CNN** and **LSTM** architectures.\n - Leveraged **deep learning** to analyze EEG signals, achieving an impressive **accuracy** of **99.97% with LSTM** and **99.35% with CNN**, demonstrating the efficacy of **neural networks** in handling **time-series** biomedical data.\n - Designed and tested models using different neural network configurations and EEG data channel subsets, optimizing for computational efficiency and **real-time** application feasibility.\n - Effectively **collaborated with peers** on the project team, taking a **leading role in managing and plannin** the project's workflow.\n - Contributed to academic knowledge by publishing a paper in an international journal.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
+                    "text": "IJNGC Published Paper",
+                    "href": "https://ijngc.perpetualinnovation.net/index.php/ijngc/article/view/910"
+                },
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
+                    "text": "PDF",
+                    "href": "https://drive.google.com/file/d/1Nv4UyPkymDI6sVf8n1l_6pFu879DcgTq/view?usp=sharing"
                 }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "CNN",
+                "LSTM",
+                "Machine Learning"
             ]
         }
     ]

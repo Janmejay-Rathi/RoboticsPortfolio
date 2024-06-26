@@ -1,33 +1,75 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Capstone Project",
+            "subtitle": "Kohler Co.",
+            "workType": "Professional Practicum",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Working on developing an AI based Automated Inspection System capable of inspecting manufacturing processes by employing advanced computer vision and machine learning techniques. This will improve the speed, accuracy & consistcy of defect detection to meet the stringent quality control standards at Kohler.",
+                "Additionally, will be creating a defect library that can be used to identify defects combined with the cutting-edge sensor technology and ML algorithms to seamlessly fit into the existing manufacturing operating."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "May 2024 - Current",
+            "icon" : {
+                "src": "images/experience/Kohler.png",
+                "class": "experience-icon"
+            }
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Student Research",
+            "subtitle": "HCA Lab, UIUC",
+            "workType": "Prof. Katie Driggs-Campbell",
+            "workDescription": [
+                "Conducting a series of controlled experiments inspired by the paper 'Towards Robots that Influence Humans Over Long-Term Interaction', focusing on the application and testing of interaction scenarios using the GEM e2 vehicle. This work supported ongoing research efforts aimed at improving long-term human-robot interaction dynamics.",
+                "Working on developing advanced pedestrain detection & controls algorithm to be implemented using the GEMStack technology developed by AutonomouStuff's GEM e2 or e4 vehicle."
+            ],
+            "dateText": "Jun 2024 - Current"
+        },
+        {
+            "title": "Robotics R&D Intern",
+            "subtitle": "Rucha Yantra LLP",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "Aided in the development of an automated system for high-precision manufacturing, utilizing computer vision to accurately locate critical points on cylindrical units for robotic automation. This initiative helped enhance operational accuracy and safety by reducing human interaction with high-pressure helium gas cylinders.",
+                "Collaborated on enhancing autonomous operations by integrating computer vision algorithms that dynamically adjusted robotic mechanisms in real-time, effectively improving production efficiency through reduced processing times.",
+                "Contributed to improve the vision based path following for Automated Guided Vehicles (AGV's), automating material handling in warehouse settings and effectively reducing labor demands wile improving workflow efficiancy.",
+                "Gained extensive hands-on experience with ROS, Linux, and OpenCV. Collaborated closely with the R&D team to troubleshoot, optimize, and advance the integration of sophisticated sensors and camera systems into industrial automation projects."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "Dec 2022 - May 2023",
+            "icon" : {
+                "src": "images/experience/ruchayantra.png",
+                "class": "experience-icon"
+            }
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Robotics Intern",
+            "subtitle": "Turquoise Automation",
+            "workType": "Internship",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Developed a robotic prototype, designed to transport heavy materials within warehouse environments to improve operational efficiency and safety.",
+                "Worked with sensors and motor controllers integrating them to the robot to facilitate obstacle detection and navigation, supporting effective material handling in dynamic settings.",
+                "Utilized ArUco marker detection techniques for pose estimation to enable the robot to ascertain its precise location and orientation within the warehouse.",
+                "Implemented control algorithms using Python on platforms like Raspberry Pi and NVIDIA Jetson, which controlled servo motors and motor drivers, enhancing the robot’s navigation and load management abilities."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "Mar 2022 - Apr 2022",
+            "icon" : {
+                "src": "images/experience/turquoise.png",
+                "class": "experience-icon"
+            }
+        },
+        {
+            "title": "Embedded Systems Intern",
+            "subtitle": "UFF",
+            "workType": "Internship",
+            "workDescription": [
+                "Led a small team of two in designing and developing a smart portable billing device aimed at improving operational efficiency in restaurants.",
+                "Developed a compact billing solution using an ESP32 microcontroller and IoT technologies, featuring a thermal printer for quick receipt issuance. The device incorporated Python-based enhancements to the user interface, supporting robust transaction handling, real-time data synchronization, and remote management capabilities. These improvements facilitated quicker and more accurate transactions in restaurant settings.",
+                "The deployment of the smart billing device reduced the reliance on manual order processing, cutting down customer wait times for ordering by over 75% and making the dining experience more efficient."
+            ],
+            "dateText": "Aug 2020 - Mar 2021",
+            "icon" : {
+                "src": "images/experience/uff.png",
+                "class": "experience-icon"
+            }
         }
     ]
 }

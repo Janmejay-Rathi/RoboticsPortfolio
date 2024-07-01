@@ -4,6 +4,7 @@ import Fade from 'react-reveal';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
+// import backgroundImage from './4.png';
 
 const styles = {
   nameStyle: {
@@ -18,6 +19,9 @@ const styles = {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundSize: 'cover',
+    // backgroundImage: `url(${backgroundImage})`,
+    backgroundPosition: 'center',
   },
 };
 

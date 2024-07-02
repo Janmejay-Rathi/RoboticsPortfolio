@@ -1,5 +1,7 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import { Switch, Route } from 'react-router-dom';
+// eslint-disable-next-line import/no-unresolved
+import { Analytics } from '@vercel/analytics/react';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
@@ -13,8 +15,7 @@ function MainApp() {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
+      .then((res) => setData(res));
   }, []);
 
   return (
@@ -39,6 +40,7 @@ function MainApp() {
               })}
           </Suspense>
         </Switch>
+        <Analytics />
       </main>
     </div>
   );

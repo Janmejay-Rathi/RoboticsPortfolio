@@ -2,13 +2,13 @@
     "experiences": [
         {
             "title": "Capstone Project",
-            "subtitle": "Kohler Co.",
+            "subtitle": "Kohler",
             "workType": "Professional Practicum",
             "workDescription": [
                 "Working on developing an AI based Automated Inspection System capable of inspecting manufacturing processes by employing advanced computer vision and machine learning techniques. This will improve the speed, accuracy & consistcy of defect detection to meet the stringent quality control standards at Kohler.",
                 "Additionally, will be creating a defect library that can be used to identify defects combined with the cutting-edge sensor technology and ML algorithms to seamlessly fit into the existing manufacturing operating."
             ],
-            "dateText": "May 2024 - Current",
+            "dateText": "Jun 2024 - Current",
             "icon" : {
                 "src": "images/experience/Kohler.png",
                 "class": "experience-icon"

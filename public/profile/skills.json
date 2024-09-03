@@ -55,15 +55,15 @@
             "title": "Tools & Environments",
             "items" : [
                 {
-                    "icon": "images/skills/linux.png",
+                    "icon": "images/skills/Linux.png",
                     "title": "Linux"
                 },
                 {
-                    "icon": "images/skills/ubuntu.png",
+                    "icon": "images/skills/Ubuntu.png",
                     "title": "Ubuntu"
                 },
                 {
-                    "icon": "images/skills/ros.png",
+                    "icon": "images/skills/ROS.png",
                     "title": "ROS"
                 },
                 {
@@ -80,7 +80,7 @@
             "title" : "Hardware",
             "items": [
                 {
-                    "icon": "images/skills/rpi.png",
+                    "icon": "images/skills/RPi.png",
                     "title": "Raspberry Pi"
                 },
                 {
@@ -88,7 +88,7 @@
                     "title": "Jetson Nano"
                 },
                 {
-                    "icon": "images/skills/arduino.png",
+                    "icon": "images/skills/Arduino.png",
                     "title": "Arduino"
                 },
                 {

@@ -8,7 +8,7 @@
                 "Working on developing an AI based Automated Inspection System capable of inspecting manufacturing processes by employing advanced computer vision and machine learning techniques. This will improve the speed, accuracy & consistcy of defect detection to meet the stringent quality control standards at Kohler.",
                 "Additionally, will be creating a defect library that can be used to identify defects combined with the cutting-edge sensor technology and ML algorithms to seamlessly fit into the existing manufacturing operating."
             ],
-            "dateText": "Jun 2024 - Current",
+            "dateText": "Jun 2024 - Aug 2024",
             "icon" : {
                 "src": "images/experience/Kohler.png",
                 "class": "experience-icon"
@@ -22,7 +22,7 @@
                 "Conducting a series of controlled experiments inspired by the paper 'Towards Robots that Influence Humans Over Long-Term Interaction', focusing on the application and testing of interaction scenarios using the GEM e2 vehicle. This work supported ongoing research efforts aimed at improving long-term human-robot interaction dynamics.",
                 "Working on developing advanced pedestrain detection & controls algorithm to be implemented using the GEMStack technology developed by AutonomouStuff's GEM e2 or e4 vehicle."
             ],
-            "dateText": "Jun 2024 - Current"
+            "dateText": "Jun 2024 - July 2024"
         },
         {
             "title": "Robotics R&D Intern",

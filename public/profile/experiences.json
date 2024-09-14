@@ -1,12 +1,22 @@
 {
     "experiences": [
         {
+            "title": "Research",
+            "subtitle": "UIUC",
+            "workType": "Prof. Reid & Prof. Sunoj",
+            "workDescription": [
+                "Currently integrating the AMIGA robotic platform with ROS to establish seamless communication between the robot’s Brain GNSS receiver, OAK depth cameras, and navigation systems, aimed at enabling autonomous path planning and obstacle avoidance.",
+                "Developing GPS-IMU and vision-based navigation algorithms for the AMIGA platform, with a focus on real-time path planning and area coverage in outdoor environments, contributing to ongoing efforts in autonomous weed management for specialty crops."
+            ],
+            "dateText": "Sept 2024 - Present"
+        },
+        {
             "title": "Capstone Project",
             "subtitle": "Kohler",
             "workType": "Professional Practicum",
             "workDescription": [
-                "Working on developing an AI based Automated Inspection System capable of inspecting manufacturing processes by employing advanced computer vision and machine learning techniques. This will improve the speed, accuracy & consistcy of defect detection to meet the stringent quality control standards at Kohler.",
-                "Additionally, will be creating a defect library that can be used to identify defects combined with the cutting-edge sensor technology and ML algorithms to seamlessly fit into the existing manufacturing operating."
+                "Explored LiDAR, point clouds, and depth cameras for defect detection, ultimately utilizing Basler machine vision cameras to develop a real-time vision-based inspection system, improving defect identification speed, accuracy, & consistency in Kohler’s manufacturing process.",
+                "Implemented computer vision techniques and leveraged GANs to create synthetic datasets for hard-to-detect glaze defects in ceramics, building a proof of concept (PoC) for integrating machine learning models into existing systems, improving quality control and efficiency."
             ],
             "dateText": "Jun 2024 - Aug 2024",
             "icon" : {
@@ -15,12 +25,12 @@
             }
         },
         {
-            "title": "Student Research",
+            "title": "Research",
             "subtitle": "HCA Lab, UIUC",
             "workType": "Prof. Katie Driggs-Campbell",
             "workDescription": [
-                "Conducting a series of controlled experiments inspired by the paper 'Towards Robots that Influence Humans Over Long-Term Interaction', focusing on the application and testing of interaction scenarios using the GEM e2 vehicle. This work supported ongoing research efforts aimed at improving long-term human-robot interaction dynamics.",
-                "Working on developing advanced pedestrain detection & controls algorithm to be implemented using the GEMStack technology developed by AutonomouStuff's GEM e2 or e4 vehicle."
+                "Conducted a series of controlled experiments inspired by the paper ”Towards Robotics that Influence Humans over Long-Term Interaction”, focusing on the application & testing of interaction scenarios using the GEM e4 vehicle.",
+                "Implemented pedestrian detection & tracking using YOLO object detection models through the GEMStack technology developed by AutonomouStuff on GEM e4 vehicle."
             ],
             "dateText": "Jun 2024 - July 2024"
         },

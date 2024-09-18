@@ -59,6 +59,47 @@
             ]
         },
         {
+            "image" : "images/projects/Ransac.png",
+            "title": "Multi-Scale Image Processing & 3D Reconstruction",
+            "bodyText": "- Implemented homography estimation via RANSAC to create panoramas by stitching images, and handled feature matching, descriptor computation (SIFT), and robust transformation estimation.\n - Reconstructed surface normals and 3D shapes from shading information in a set of images, using photometric stereo and integration techniques to create 3D surface height maps.\n - Used both spatial and frequency-domain methods (Fourier transform) to align color channels in historical glass plate images (Prokudin-Gorskii collection), optimizing for visual quality using SSD and NCC metrics.",
+            "tags" : [
+                "RANSAC",
+                "blob detection",
+                "homography",
+                "OpenCV",
+                "Shape from Shading",
+                "3D Reconstruction",
+                "Fourier-based Alignment"
+            ]
+        },
+        {
+            "image" : "images/projects/pca.png",
+            "title": "Instance-based & Linear Methods for Classification & Regression",
+            "bodyText": "- Implemented k-means clustering and k-nearest neighbors (KNN) for MNIST digit classification. Explored both retrieval and classification tasks, optimizing parameters for performance. Integrated the FAISS library for high-dimensional search to accelerate the KNN approach.\n - Reduced the dimensionality of MNIST data, visualizing principal components and explaining variance to enhance KNN classification. Reduced computation time while maintaining classification accuracy.\n - Utilized logistic regression and linear SVMs for MNIST classification. Compared classification errors across varying training sizes and conducted parameter tuning through regularization strength adjustments.",
+            "tags" : [
+                "KNN",
+                "Principal Component Analysis",
+                "SVM",
+                "Logistic Regression",
+                "K-means",
+                "FAISS",
+                "Scikit-learn"
+            ]
+        },
+        {
+            "image" : "images/projects/trees.png",
+            "title": "Probabilistic Models, Trees & Deep Learning for Classification",
+            "bodyText": "- Applied histogram, k-means clustering, and Gaussian Mixture Models (GMM) for pixel-wise probability estimation in image segmentation tasks. Developed scoring mechanisms to identify object pixels within bounding boxes.\n - Built decision tree classifiers and explored ensemble methods (random forests, boosted trees) for temperature regression and penguin species classification. Tuned model complexity using tree depth and analyzed feature importance.\n - Implemented MLPs with PyTorch for MNIST classification, adjusting learning rates and optimizing hyperparameters. Achieved <2.5% test error on MNIST with efficient GPU-based training.",
+            "tags" : [
+                "PDF",
+                "Gaussian Mixture Models",
+                "Decision Trees",
+                "Random Forests",
+                "Boosted Trees",
+                "Multilayer Perceptron"
+            ]
+        },
+        {
             "image" : "images/projects/postrack.png",
             "title": "PosTrack: Smart Posture Detection ",
             "bodyText": "- Created an innovative webcam-based posture detection system using computer vision to monitor and improve user posture in real-time, addressing the shortcomings of sensor-based and machine learning approaches.\n - Utilized MediaPipe’s face mesh and pose estimation solutions to detect facial and body landmarks for posture analysis.\n - Developed non-intrusive, cost effective & user friendly system that requires no additional hardware, leveraging existing webcams for ease of integration into daily routines.",

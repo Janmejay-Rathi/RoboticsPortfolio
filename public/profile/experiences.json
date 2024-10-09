@@ -1,12 +1,12 @@
 {
     "experiences": [
         {
-            "title": "Research",
+            "title": "Research Project",
             "subtitle": "UIUC",
-            "workType": "Prof. Reid & Prof. Sunoj",
+            "workType": "Prof. John Reid & Prof. Sunoj Shajahan",
             "workDescription": [
-                "Currently integrating the AMIGA robotic platform with ROS to establish seamless communication between the robot’s Brain GNSS receiver, OAK depth cameras, and navigation systems, aimed at enabling autonomous path planning and obstacle avoidance.",
-                "Developing GPS-IMU and vision-based navigation algorithms for the AMIGA platform, with a focus on real-time path planning and area coverage in outdoor environments, contributing to ongoing efforts in autonomous weed management for specialty crops."
+                "Developing a Model Predictive Controller (MPC) for lane following and tracking on the AMIGA platform, enabling real-time path planning and obstacle avoidance.",
+                "Integrating ROS to establish communication between the robot’s GNSS receiver, OAK depth cameras, and navigation systems, while designing GPS-IMU and vision-based navigation algorithms for autonomous weed management in agriculture fields."
             ],
             "dateText": "Sept 2024 - Present"
         },
@@ -25,7 +25,7 @@
             }
         },
         {
-            "title": "Research",
+            "title": "Research Project",
             "subtitle": "HCA Lab, UIUC",
             "workType": "Prof. Katie Driggs-Campbell",
             "workDescription": [

@@ -31,7 +31,6 @@
         {
             "title": "Research Project",
             "subtitle": "Prof. Katie Driggs Campbell, Human-Centered Autonomy Lab, UIUC",
-            "workType": "Research project",
             "workDescription": [
                 "Conducted a series of controlled experiments inspired by the paper ”Towards Robotics that Influence Humans over Long-Term Interaction”, focusing on the application & testing of interaction scenarios using the GEM e4 vehicle.",
                 "Implemented pedestrian detection & tracking using YOLO object detection models through the GEMStack technology developed by AutonomouStuff on GEM e4 vehicle."

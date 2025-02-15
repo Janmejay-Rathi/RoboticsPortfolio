@@ -1,18 +1,22 @@
 {
     "experiences": [
         {
-            "title": "Research Project",
-            "subtitle": "UIUC",
-            "workType": "Prof. John Reid & Prof. Sunoj Shajahan",
+            "title": "Robotics Engineer-Academic Hourly",
+            "subtitle": "Prof. Sunoj Shajahan, UIUC",
+            "workType": "Research Work",
             "workDescription": [
-                "Developing a Model Predictive Controller (MPC) for lane following and tracking on the AMIGA platform, enabling real-time path planning and obstacle avoidance.",
-                "Integrating ROS to establish communication between the robot’s GNSS receiver, OAK depth cameras, and navigation systems, while designing GPS-IMU and vision-based navigation algorithms for autonomous weed management in agriculture fields."
+                "Developed a vision-based navigation system for lane following on the AMIGA platform using depth cameras, enabling autonomous path tracking and real-time obstacle avoidance & also implemented a simple Model Predictive Controller (MPC).",
+                "Designed & implemented a vision-based weeding mechanism using a DDS framework with a master-slave architecture between Jetson and Raspberry Pi, controlling Dynamixel motors to precisely identify and eliminate weeds in agricultural fields."
             ],
-            "dateText": "Sept 2024 - Present"
+            "dateText": "Sept 2024 - Present",
+            "icon" : {
+                "src": "images/experience/UIUC.png",
+                "class": "experience-icon"
+            }
         },
         {
-            "title": "Capstone Project",
-            "subtitle": "Kohler",
+            "title": "Robotics Engineer",
+            "subtitle": "Kohler Co.",
             "workType": "Professional Practicum",
             "workDescription": [
                 "Explored LiDAR, point clouds, and depth cameras for defect detection, ultimately utilizing Basler machine vision cameras to develop a real-time vision-based inspection system, improving defect identification speed, accuracy, & consistency in Kohler’s manufacturing process.",
@@ -26,8 +30,8 @@
         },
         {
             "title": "Research Project",
-            "subtitle": "HCA Lab, UIUC",
-            "workType": "Prof. Katie Driggs-Campbell",
+            "subtitle": "Prof. Katie Driggs Campbell, Human-Centered Autonomy Lab, UIUC",
+            "workType": "Research project",
             "workDescription": [
                 "Conducted a series of controlled experiments inspired by the paper ”Towards Robotics that Influence Humans over Long-Term Interaction”, focusing on the application & testing of interaction scenarios using the GEM e4 vehicle.",
                 "Implemented pedestrian detection & tracking using YOLO object detection models through the GEMStack technology developed by AutonomouStuff on GEM e4 vehicle."

@@ -2,7 +2,7 @@
     "experiences": [
         {
             "title": "Robotics Engineer-Academic Hourly",
-            "subtitle": "Prof. Sunoj Shajahan, UIUC",
+            "subtitle": "Prof. John Reid & Prof. Sunoj Shajahan, UIUC",
             "workType": "Research Work",
             "workDescription": [
                 "Developed a vision-based navigation system for lane following on the AMIGA platform using depth cameras, enabling autonomous path tracking and real-time obstacle avoidance & also implemented a simple Model Predictive Controller (MPC).",

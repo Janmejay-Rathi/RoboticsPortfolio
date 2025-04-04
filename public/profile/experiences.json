@@ -1,14 +1,27 @@
 {
     "experiences": [
         {
-            "title": "Robotics Engineer-Academic Hourly",
+            "title": "Robotics Engineer",
             "subtitle": "Prof. John Reid & Prof. Sunoj Shajahan, UIUC",
-            "workType": "Research Work",
+            "workType": "Full-Time",
             "workDescription": [
-                "Developed a vision-based navigation system for lane following on the AMIGA platform using depth cameras, enabling autonomous path tracking and real-time obstacle avoidance & also implemented a simple Model Predictive Controller (MPC).",
-                "Designed & implemented a vision-based weeding mechanism using a DDS framework with a master-slave architecture between Jetson and Raspberry Pi, controlling Dynamixel motors to precisely identify and eliminate weeds in agricultural fields."
+                "Leading a team of 5 to develop Model Predictive Controller (MPC) and vision-based lane-following navigation capabilities on the AMIGA platform, utilizing the OAK depth camera to enable autonomous driving and real-time obstacle detection.",
+                "Designing and developing a standalone vision-based weeding mechanism using ROS 2, incorporating Jetson Orin, a lead screw mechanism, and pneumatic air cylinders for precise identification and removal of weeds in Horseradish agricultural fields."
             ],
-            "dateText": "Sept 2024 - Present",
+            "dateText": "Feb 2025 - Present",
+            "icon" : {
+                "src": "images/experience/UIUC.png",
+                "class": "experience-icon"
+            }
+        },
+        {
+            "title": "Graduate Student Researcher",
+            "subtitle": "Prof. John Reid & Prof. Sunoj Shajahan, UIUC",
+            "workType": "Research Project",
+            "workDescription": [
+                "Worked under Prof. John Reid & Prof. Sunoj Shajahan as a Graduate Student developing the autonomous navigation capabilities for the AMIGA robot along with precise mechanical weeding mechanism to autonomously remove weeds in the Horseradish fields."
+            ],
+            "dateText": "Sept 2024 - Dec 2024",
             "icon" : {
                 "src": "images/experience/UIUC.png",
                 "class": "experience-icon"

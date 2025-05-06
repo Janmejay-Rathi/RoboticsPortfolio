@@ -5,8 +5,11 @@
             "subtitle": "Prof. John Reid & Prof. Sunoj Shajahan, UIUC",
             "workType": "Full-Time",
             "workDescription": [
-                "Leading a team of 5 to develop Model Predictive Controller (MPC) and vision-based lane-following navigation capabilities on the AMIGA platform, utilizing the OAK depth camera to enable autonomous driving and real-time obstacle detection.",
-                "Designing and developing a standalone vision-based weeding mechanism using ROS 2, incorporating Jetson Orin, a lead screw mechanism, and pneumatic air cylinders for precise identification and removal of weeds in Horseradish agricultural fields."
+                "Leading a team to develop vision-based lane-following navigation and Model Predictive Controller (MPC) systems for the AMIGA platform, utilizing OAK depth cameras to enable seamless autonomous driving and real-time obstacle detection, enhancing operational efficiency.",
+                "Designing and developing vision-based autonomous weeding mechanism with ROS 2, integrating Jetson Orin, lead screw actuators, and pneumatic cylinders for precise, automated weed detection and removal in Horseradish farming, driving cost savings and improved crop yields",
+                "Integrating software and hardware together for AMIGA, focusing on algorithm validation, sensor latency, & error handling to optimize performance.",
+                "Developing Gazebo simulations to test and fine-tune algorithms in various scenarios, ensuring robust and adaptable solutions for autonomous navigation and weeding.",
+                "Collaborating with horseradish farmers to gather valuable feedback on prototype performance, continuously refining the system’s functionality to meet real-world challenges and improve its overall effectiveness."
             ],
             "dateText": "Feb 2025 - Present",
             "icon" : {

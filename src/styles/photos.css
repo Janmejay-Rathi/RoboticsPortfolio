@@ -1,0 +1,38 @@
+.photos-section {
+  padding: 2rem;
+  background-color: #121212;
+  color: #fff;
+}
+
+.photos-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 2rem;
+}
+
+.photo-tile {
+  flex: 1 1 250px;
+  max-width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.photo-tile img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.photo-tile:hover img {
+  transform: scale(1.05);
+}

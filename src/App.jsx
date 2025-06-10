@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
@@ -12,6 +12,12 @@ import { lightTheme, darkTheme } from './theme/themes';
 function App() {
   window.matchMedia = null;
   const darkMode = useDarkMode(true);
+
+  useEffect(() => {
+    const themeClass = darkMode.value ? 'dark' : 'light';
+    document.body.classList.remove('light', 'dark');
+    document.body.classList.add(themeClass);
+  }, [darkMode.value]);
 
   return (
     <AppContext.Provider value={{ darkMode }}>

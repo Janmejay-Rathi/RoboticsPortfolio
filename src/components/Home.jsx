@@ -4,57 +4,52 @@ import Fade from 'react-reveal';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
-// import backgroundImage from './4.png';
-
-const styles = {
-  nameStyle: {
-    fontSize: '5em',
-  },
-  inlineChild: {
-    display: 'inline-block',
-  },
-  mainContainer: {
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundSize: 'cover',
-    // backgroundImage: `url(${backgroundImage})`,
-    backgroundPosition: 'center',
-  },
-};
+import '../styles/Home.css';
 
 function Home() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.home, {
-      method: 'GET',
-    })
+    fetch(endpoints.home, { method: 'GET' })
       .then((res) => res.json())
       .then((res) => setData(res))
-      .catch((err) => err);
+      .catch(console.error);
   }, []);
 
-  return data ? (
+  if (!data) return <FallbackSpinner />;
+
+  return (
     <Fade>
-      <div style={styles.mainContainer}>
-        <h1 style={styles.nameStyle}>{data?.name}</h1>
-        <div style={{ flexDirection: 'row' }}>
-          <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
-          <Typewriter
-            options={{
-              loop: true,
-              autoStart: true,
-              strings: data?.roles,
-            }}
-          />
+      <section className="hero-section">
+        <div className="hero-column hero-left">
+          <img src="/images/home/me.png" alt="Me" className="hero-left-img" />
         </div>
-        <Social />
-      </div>
+
+        <div className="hero-column hero-center">
+          <div className="hero-content">
+            <h1>{data.name}</h1>
+            <div className="typewriter-wrapper">
+              <h2 className="static-text">I&apos;m&nbsp;</h2>
+              <h2 className="typewriter-text">
+                <Typewriter
+                  options={{
+                    loop: true,
+                    autoStart: true,
+                    strings: data.roles,
+                  }}
+                />
+              </h2>
+            </div>
+            <Social />
+          </div>
+        </div>
+
+        <div className="hero-column hero-right">
+          <img src="/images/home/drone.png" alt="Drone" className="hero-right-img" />
+        </div>
+      </section>
     </Fade>
-  ) : <FallbackSpinner />;
+  );
 }
 
 export default Home;

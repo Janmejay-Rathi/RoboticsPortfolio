@@ -1,0 +1,127 @@
+{
+    "achievements" : [
+        {
+            "image" : "images/achievements/NASA.jpg",
+            "title": "NASA Space Settlement Contest",
+            "bodyText": "-  **Secured 3rd rank** in the **NASA Space Settlement Contest** and was invited for the **33rd International Space Development Conference (ISDC)** in **Los Angeles, California.** \n- Designed an innovative space habitat concept focusing on sustainability, artificial gravity, and long-term human habitation, evaluated by NASA experts and space industry professionals.",
+            "links": [
+                {
+                    "text": "Certificate",
+                    "href": "https://drive.google.com/file/d/1zz9hzYn5d2DkLUQP6AIBqRd8whNc8Psf/view?usp=drive_link"
+                },
+                {
+                    "text": "Results",
+                    "href": "https://nss.org/settlement/nasa/Contest/Results/2014/#:~:text=There%20is%20a%20tie%20for,Radeva%20V."
+                },
+                {
+                    "text": "Conference Invitation",  
+                    "href": "https://drive.google.com/file/d/15MoLr1rkQnoP8Zup4utcZ7v7oOyucngl/view?usp=drive_link"
+                }
+            ],
+            "tags" : [
+                "Challenge",
+                "NASA"
+            ]
+        },
+        {
+            "image" : "images/achievements/drone1.jpg",
+            "title": "Dronix - Wings'20",
+            "bodyText": "- **1st Place Winner** in a **technical drone challenge** called Dronix, held at Government College of Engineering Aurangabad, India.\n - Received **INR 30k cash prize** for **outstanding drone performance** in the competition.",
+            "links": [
+                {
+                    "text": "Certificate",
+                    "href": "https://drive.google.com/file/d/1KuOgyLDqN6qQXYsAr087-oaYhQ4zWXD_/view?usp=drive_link"
+                }
+            ],
+            "tags" : [
+                "Challenge",
+                "FPV-Drone",
+                "UAV"
+            ]
+        },
+        {
+            "image" : "images/achievements/pilotlicense.jpg",
+            "title": "FAA 107 sUAS Pilot License",
+            "bodyText": "- Certified as a **FAA Part 107 Remote Pilot** for small Unmanned Aircraft Systems (sUAS), authorized to operate drones in United States.\n - **Valid Until June 2027.**",
+            "links": [
+                {
+                    "text": "License",
+                    "href": "https://drive.google.com/file/d/1-yywUvcguHpXPzVdHzi3WM4wCzGeUS6r/view?usp=drive_link"
+                }
+            ],
+            "tags" : [
+                "sUAS",
+                "FAA Certified",
+                "Remote Pilot License"
+            ]
+        },
+        {
+            "image" : "images/achievements/ijngc.jpg",
+            "title": "Research Paper Publication",
+            "bodyText": "- Published research on **EEG-based person identification** using **deep learning**, achieving **99.97% accuracy** with **stacked LSTM** on the DEAP dataset.\n-  J. . Rathi, H. . Lakhwani, S. . Ramani, V. . Rathod, and N. . Kulkarni, **Employing Biomedical Signals as a Means of Biometric Identiﬁcation**, ijngc, vol. 13, no. 5, Nov. 2022.",
+            "links": [
+                {
+                    "text": "Paper",
+                    "href": "https://drive.google.com/file/d/1lVm2Q69unWNOtr7pwkxi1UADY-u2S52V/view?usp=drive_link"
+                },
+                {
+                    "text": "Journal",
+                    "href": "https://ijngc.perpetualinnovation.net/index.php/ijngc/article/view/910"
+                }
+            ],
+            "tags" : [
+                "Publication",
+                "IJNGC",
+                "Research Paper"
+            ]
+        },
+        {
+            "image" : "images/achievements/indian-railways.jpg",
+            "title": "Indian Railways Drone Project",
+            "bodyText": "- Assisted **Indian Railways** in **drone piloting** & **aerial cinematography** for a redevelopment project using the **DJI Phantom 4** Drone.\n-  Contributed to aerial site mapping, structural analysis, and progress monitoring through drone footage.",
+            "links": [
+                {
+                    "text": "Certificate",
+                    "href": "https://drive.google.com/file/d/1tKeDR-hJ3IvPkjJyfoBp_T0Go5X8Eftr/view?usp=sharing"
+                }
+            ],
+            "tags" : [
+                "Volunteering",
+                "DJI Drone",
+                "Pilot"
+            ]
+        },
+        {
+            "image" : "images/achievements/drone2.jpg",
+            "title": "Drone Racing - Pragyaa'20",
+            "bodyText": "- **2nd Place Winner** in a technical drone challenge called Drone Racing, held at Shri Guru Gobind Singhji Institute of Engineering & Technology, Nanded, India.\n - **Awarded INR 10k cash prize** for great manuvering and piloting skills!",
+            "links": [
+                {
+                    "text": "Certificate",
+                    "href": "https://drive.google.com/file/d/1H12cOrdcjycWKjhL_m9ixQ5jKLZ_MRU8/view?usp=drive_link"
+                }
+            ],
+            "tags" : [
+                "Challenge",
+                "Drone Piloting",
+                "UAV"
+            ]
+        },
+        {
+            "image" : "images/achievements/MLSummerSchool.jpg",
+            "title": "Amazon ML Summer School",
+            "bodyText": "- **Selected for the highly competitive Amazon ML Summer School, **among top candidates from over 20,000 applicants** across India.\n - Gained hands-on experience in machine learning through expert-led sessions and projects by Amazon scientists, with focus on real-world applications.",
+            "links": [
+                {
+                    "text": "Certificate",
+                    "href": "https://drive.google.com/file/d/1GCnNzNi0Qws_D_o7InWDJBdhfhPeFM3o/view?usp=drive_link"
+                }
+            ],
+            "tags" : [
+                "Challenge",
+                "Amazon",
+                "Machine Learning"
+            ]
+        }
+    ]
+}

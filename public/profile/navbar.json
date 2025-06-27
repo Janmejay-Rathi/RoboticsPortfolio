@@ -30,8 +30,12 @@
             "href": "/projects"
         },
         {
+            "title": "Achievements",
+            "href": "/achievements"
+        },
+        {
             "title": "Resume",
-            "href": "https://drive.google.com/file/d/168EFvfH6F-yt-r7zy5wLCbduoFeqz5Kk/view?usp=sharing",
+            "href": "https://drive.google.com/file/d/1yiNfN1Ut7zSf2svuOhSy6pEzVshB7aP-/view?usp=drive_link",
             "type": "link"
         }
     ]

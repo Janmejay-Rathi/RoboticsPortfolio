@@ -2,7 +2,7 @@
     "experiences": [
         {
             "title": "Robotics Engineer",
-            "subtitle": "Bonsai Robotics, San Jose",
+            "subtitle": "Bonsai Robotics",
             "workType": "Internship",
             "workDescription": [
                 "Working on the end-to-end data collection infrastructure for Bonsai Robotics’ AMIGA robots — enabling high-quality, structured, and scalable data capture to support perception, autonomy, and research pipelines.",
@@ -17,7 +17,7 @@
         },
         {
             "title": "Robotics Engineer",
-            "subtitle": "Prof. Sunoj Shajahan, UIUC, Champaign, IL",
+            "subtitle": "Prof. Sunoj Shajahan, UIUC",
             "workType": "Full-Time",
             "workDescription": [
                 "Leading a team to develop vision-based lane-following navigation and Model Predictive Controller (MPC) systems for the AMIGA platform, utilizing OAK depth cameras to enable seamless autonomous driving and real-time obstacle detection, enhancing operational efficiency.",

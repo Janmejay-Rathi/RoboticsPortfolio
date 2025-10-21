@@ -12,6 +12,10 @@
                 {
                     "icon": "images/skills/C++.png",
                     "title": "C++"
+                },
+                {
+                    "icon": "images/skills/rust.png",
+                    "title": "Rust"
                 }
         ]},
         {

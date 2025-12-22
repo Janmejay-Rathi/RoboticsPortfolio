@@ -5,9 +5,10 @@
             "subtitle": "Bonsai Robotics",
             "workType": "Internship",
             "workDescription": [
-                "Working on the end-to-end data collection infrastructure for Bonsai Robotics’ AMIGA robots — enabling high-quality, structured, and scalable data capture to support perception, autonomy, and research pipelines.",
-                "Collaborating with cross-functional teams to define data requirements, design collection protocols, and participate in field testing to ensure the data meets real-world performance and quality standards.",
-                "Contributing to the integration, development, and testing of next-generation autonomy software on the NVIDIA Jetson-based platform, enhancing on-field decision-making and autonomous navigation capabilities."
+                "Designed and enhanced a multi-sensor data collection pipeline (LiDAR, cameras, IMU, GPS) on the AMIGA autonomous platform, ensuring time-synchronized, high-quality datasets to support perception, autonomy, and research work.",
+                "Built a high-throughput Rust + Zenoh–based data recording system to log sensor and system telemetry into MCAP files for offline debugging, analysis, and model development.",
+                "Validated & optimized GStreamer camera pipelines on NVIDIA Jetson, evaluating compression formats and streaming configurations to support BEV perception workflows and camera calibration.",
+                "Owned end-to-end data collection platform, diagnosing and resolving software, hardware, and networking issues to ensure reliable autonomous data capture in field conditions."
             ],
             "dateText": "Oct 2025 - Current",
             "icon" : {

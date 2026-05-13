@@ -2,8 +2,21 @@
     "experiences": [
         {
             "title": "Robotics Engineer",
+            "subtitle": "Agrobotics",
+            "workType": "Full-Time",
+            "workDescription": [
+                "Developed & improved end-to-end data collection pipelines for autonomous agricultural robots, including on-field testing, sensor data acquisition, and workflow optimization to support perception and VLA-based robotics development",
+                "Bridged software and hardware teams by supporting robot integration, debugging, and testing; additionally configured Foxglove for real-time robot monitoring, data analysis, and perception system validation."
+            ],
+            "dateText": "Feb 2026 - Mar 2026",
+            "icon" : {
+                "src": "images/experience/Agrobotics.png",
+                "class": "experience-icon"
+            }
+        },{
+            "title": "Robotics Engineer",
             "subtitle": "Bonsai Robotics",
-            "workType": "Internship",
+            "workType": "Full-Time",
             "workDescription": [
                 "Designed and enhanced a multi-sensor data collection pipeline (LiDAR, cameras, IMU, GPS) on the AMIGA autonomous platform, ensuring time-synchronized, high-quality datasets to support perception, autonomy, and research work.",
                 "Built a high-throughput Rust + Zenoh–based data recording system to log sensor and system telemetry into MCAP files for offline debugging, analysis, and model development.",
